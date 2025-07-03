@@ -1,0 +1,79 @@
+ *******************************************************************************
+ * OpenText Exstream Version 16.6.31 64-bit
+ * Execution Begins: 7/3/2025   22:50:20
+ * Message File  (196302)
+ *******************************************************************************
+ *******************************************************************************
+ *         Summary of Exstream Run Options                                     *
+ *******************************************************************************
+ *   Run As-Of Date:         Month (7)  Day (3)  Year (2025)
+ *   Control File:           D:\extream guide\Bank_statement\controlfile.txt
+ *   Control File Encoding:  ISO88591
+ *   Package File (  1):     D:\extream guide\Bank_statement\ExstreamPackage.pub -- Application Package
+ *   Message File:           D:\extream guide\Bank_statement\message1.dat
+ *   Report  File:           ExstreamReport.dat
+ *   Track   File:           ExstreamTrack.dat
+ *   Non-Queue Output File:  ExstreamOutput.ecf
+ *   Run Mode:               Production
+ *   Compiled Engine Type:   Release Non-Production
+ *   Program Functions:      Composition
+ *   Error Stop Level:       Severe
+ *   Post Sort Mode:         No
+ *   Create Output Files:    Yes
+ *   Disable Print Files:    No
+ *   Disable Output Sort:    No
+ *   Campaign Report Level:  None
+ *   Tracking DSN:           Exstream Tracking 16.6.31
+ *   Tracking Schema:        None
+ *   Tracking Type:          File
+ *   Tracking Input:         Database
+ *   Verbose Progress:       Automatic
+ *   Overlay Mode:           Based On Printer
+ *   Maximum Overlays:       Based On Printer
+ *   Import Directory:       
+ *   Process Customers:      0 to 999999999 by 1
+ *   File Mapping:           6 Files Are Mapped
+ *       sortindex  ===>  C:\OTPractice\Output\sortindex.txt   
+ *       sortdata  ===>  C:\OTPractice\Output\sortdata.txt   
+ *       TDriver  ===>  D:\extream guide\Bank_statement\Driver_Input\Driver.xml   
+ *       ReferenceFile  ===>  D:\extream guide\Bank_statement\Columnerfile.txt   
+ *       TPDF  ===>  D:\extream guide\Bank_statement\Output1.pdf   
+ *       METADATA  ===>  D:\extream guide\Bank_statement\METADATA.txt   
+ *******************************************************************************
+ *******************************************************************************
+ *         Package File Overview                                               *
+ *******************************************************************************
+ *   Creation Date :         07/03/2025  13:03
+ *   Created By :            admin
+ *   Design Manager Version :1606031
+ *   Package Contents:       Complete
+ *   Package Type:           Full Application Package
+ *   Application:            Bank_statement
+ *   Application revised :   07/03/2025  09:46
+ *   Application version :   1
+ *   Package Object Version: WIP for all users
+ *   Package As-of Date:     Now (07/03/2025  13:03)
+ *   Jurisdictions:          None
+ *   Application Queues:     Enabled
+ *******************************************************************************
+ *   Output will be written to Queue files, not the Non-Queue Output File
+EX002522W (1) The locale is not set for this application. The language and locale will be set to default.
+EX002697I (1) Data aggregation has been enabled due to XML end tag processing.
+EX001800I (1) >>>>>>>>>>>> Driver File: opening the customer driver file named Bankstatement_Driver. <<<<<<<<<<<<
+ *******************************************************************************
+ *   Rules on Queues processed AFTER composition because of variables used in rules.
+EX001000I (1) ********************* Customer 1:    Starts at input record 8 (byte 186)
+EX009080W (1) Transparency is not supported for images placed on-page in PDF output (D:\extream 
+              guide\Bank_statement\logo\Bank_logo.png).
+ *************************************************************************
+ DrawPart PDL Print Memory - Total:  4866057
+ *************************************************************************
+ Number of messages issued:     5    total called:  5
+ Number of customers processed: 1
+ Number of customer communications produced: 1
+ Number of pages processed:     1    (0 blank)
+ Program start & end:           07/03/2025 22:50:20 - 22:50:20
+ Elapsed wall clock time:       00:00:00
+ Elapsed CPU time:              Unavailable
+ CPU Performance:               Cannot be calculated
+ Wall clock performance:        Cannot be calculated

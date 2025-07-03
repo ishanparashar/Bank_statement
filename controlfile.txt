@@ -1,0 +1,17 @@
+-PACKAGEFILE=D:\extream guide\Bank_statement\ExstreamPackage.pub
+-MESSAGEFILE=D:\extream guide\Bank_statement\message1.dat
+-RUNMODE=PRODUCTION
+-MSGRESOURCE=D:\extream guide\Bank_statement\MsgResource_en-us.dat
+-FILEMAP=sortindex,C:\OTPractice\Output\sortindex.txt
+-FILEMAP=sortdata,C:\OTPractice\Output\sortdata.txt
+-FILEMAP=TDriver,D:\extream guide\Bank_statement\Driver_Input\Driver.xml
+-FILEMAP=ReferenceFile,D:\extream guide\Bank_statement\Columnerfile.txt
+-FILEMAP=TPDF,D:\extream guide\Bank_statement\Output1.pdf
+-FILEMAP=METADATA,D:\extream guide\Bank_statement\METADATA.txt
+-VARSET=Banklogo,D:\extream guide\Bank_statement\logo\Bank_logo.png
+
+
+
+
+
+
