@@ -1,0 +1,4 @@
+<XML>
+<Customer><PhoneNo>993323</PhoneNo><SMSbody>Dear Ishan Mehta, Your Outstanding  Balance is:43000 Thanksyou</SMSbody></Customer>                                                                         
+<Customer><PhoneNo>13993323</PhoneNo><SMSbody>Dear Rohit Mehta, Your Outstanding  Balance is:43000 Thanksyou</SMSbody></Customer>                                                                       
+</XML>
