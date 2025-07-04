@@ -1,9 +1,11 @@
-# 🏦 Monthly Bank Statement Generator – OpenText Exstream Project
+# 🏦 Multichannel Bank Statement Generation Using OpenText Exstream – OpenText Exstream Project
 
 This project is a complete simulation of a **Monthly Bank Statement** generation system developed using **OpenText Exstream**.  
 It showcases real-world dynamic document generation with scripting, table overflow, conditional logic, and batch execution support.
 
 ---
+Design a multichannel communication flow that delivers bank statements in PDF format via  SMS alerts via message gateways using a single XML input source.
+
 
 ## 📌 Features
 
@@ -28,3 +30,4 @@ BankStatement_Project/
 ├── layout.png         # Layout image/mockup
 ├── output.pdf         # Sample generated statement
 ├── README.md          # Project documentation (this file)
+├── Metadeta.txt       # used for SMS pass to third party software for SMS delivery 
