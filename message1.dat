@@ -1,16 +1,16 @@
  *******************************************************************************
  * OpenText Exstream Version 16.6.31 64-bit
- * Execution Begins: 7/3/2025   22:50:20
+ * Execution Begins: 7/4/2025   11:50:11
  * Message File  (196302)
  *******************************************************************************
  *******************************************************************************
  *         Summary of Exstream Run Options                                     *
  *******************************************************************************
- *   Run As-Of Date:         Month (7)  Day (3)  Year (2025)
- *   Control File:           D:\extream guide\Bank_statement\controlfile.txt
+ *   Run As-Of Date:         Month (7)  Day (4)  Year (2025)
+ *   Control File:           C:\OTPractice\Bank_statement\controlfile.txt
  *   Control File Encoding:  ISO88591
- *   Package File (  1):     D:\extream guide\Bank_statement\ExstreamPackage.pub -- Application Package
- *   Message File:           D:\extream guide\Bank_statement\message1.dat
+ *   Package File (  1):     C:\OTPractice\Bank_statement\ExstreamPackage.pub -- Application Package
+ *   Message File:           C:\OTPractice\Bank_statement\message1.dat
  *   Report  File:           ExstreamReport.dat
  *   Track   File:           ExstreamTrack.dat
  *   Non-Queue Output File:  ExstreamOutput.ecf
@@ -35,24 +35,24 @@
  *   File Mapping:           6 Files Are Mapped
  *       sortindex  ===>  C:\OTPractice\Output\sortindex.txt   
  *       sortdata  ===>  C:\OTPractice\Output\sortdata.txt   
- *       TDriver  ===>  D:\extream guide\Bank_statement\Driver_Input\Driver.xml   
- *       ReferenceFile  ===>  D:\extream guide\Bank_statement\Columnerfile.txt   
- *       TPDF  ===>  D:\extream guide\Bank_statement\Output1.pdf   
- *       METADATA  ===>  D:\extream guide\Bank_statement\METADATA.txt   
+ *       TDriver  ===>  C:\OTPractice\Bank_statement\Driver_Input\Driver.xml   
+ *       ReferenceFile  ===>  C:\OTPractice\Driver_Input\Columnerfile.txt   
+ *       TPDF  ===>  C:\OTPractice\Bank_statement\Output1.pdf   
+ *       TMetadata  ===>  C:\OTPractice\Bank_statement\METADATA.txt   
  *******************************************************************************
  *******************************************************************************
  *         Package File Overview                                               *
  *******************************************************************************
- *   Creation Date :         07/03/2025  13:03
+ *   Creation Date :         07/04/2025  11:50
  *   Created By :            admin
  *   Design Manager Version :1606031
  *   Package Contents:       Complete
  *   Package Type:           Full Application Package
  *   Application:            Bank_statement
- *   Application revised :   07/03/2025  09:46
+ *   Application revised :   07/04/2025  05:16
  *   Application version :   1
  *   Package Object Version: WIP for all users
- *   Package As-of Date:     Now (07/03/2025  13:03)
+ *   Package As-of Date:     Now (07/04/2025  11:49)
  *   Jurisdictions:          None
  *   Application Queues:     Enabled
  *******************************************************************************
@@ -63,17 +63,21 @@ EX001800I (1) >>>>>>>>>>>> Driver File: opening the customer driver file named B
  *******************************************************************************
  *   Rules on Queues processed AFTER composition because of variables used in rules.
 EX001000I (1) ********************* Customer 1:    Starts at input record 8 (byte 186)
-EX009080W (1) Transparency is not supported for images placed on-page in PDF output (D:\extream 
-              guide\Bank_statement\logo\Bank_logo.png).
+EX009080W (1) Transparency is not supported for images placed on-page in PDF output 
+              (C:\OTPractice\Bank_statement\logo\Bank_logo.png).
+EX001000I (2) ********************* Customer 2:    Starts at input record 81 (byte 1515)
+EX009080W (2) Transparency is not supported for images placed on-page in PDF output 
+              (C:\OTPractice\Bank_statement\logo\Bank_logo.png).
  *************************************************************************
  DrawPart PDL Print Memory - Total:  4866057
  *************************************************************************
- Number of messages issued:     5    total called:  5
- Number of customers processed: 1
- Number of customer communications produced: 1
- Number of pages processed:     1    (0 blank)
- Program start & end:           07/03/2025 22:50:20 - 22:50:20
+ Number of messages issued:     7    total called:  7
+ Number of customers processed: 2
+ Number of customer communications produced: 2
+ Number of pages processed:     2    (0 blank)
+ Program start & end:           07/04/2025 11:50:11 - 11:50:11
  Elapsed wall clock time:       00:00:00
- Elapsed CPU time:              Unavailable
- CPU Performance:               Cannot be calculated
+ Elapsed CPU time:              0.03  sec SETUP  0.10  sec TOTAL
+ CPU Performance:               72000 Pgs/Hr  20.0 Pgs/Sec
+ High-Volume Performance Est:   102549 Pgs/Hr  28.5 Pgs/Sec
  Wall clock performance:        Cannot be calculated

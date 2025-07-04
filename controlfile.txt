@@ -1,14 +1,14 @@
--PACKAGEFILE=D:\extream guide\Bank_statement\ExstreamPackage.pub
--MESSAGEFILE=D:\extream guide\Bank_statement\message1.dat
+-PACKAGEFILE=C:\OTPractice\Bank_statement\ExstreamPackage.pub
+-MESSAGEFILE=C:\OTPractice\Bank_statement\message1.dat
 -RUNMODE=PRODUCTION
--MSGRESOURCE=D:\extream guide\Bank_statement\MsgResource_en-us.dat
+-MSGRESOURCE=C:\Users\Public\Documents\OpenText\Exstream 16.6.31\MsgResource_en-us.dat
 -FILEMAP=sortindex,C:\OTPractice\Output\sortindex.txt
 -FILEMAP=sortdata,C:\OTPractice\Output\sortdata.txt
--FILEMAP=TDriver,D:\extream guide\Bank_statement\Driver_Input\Driver.xml
--FILEMAP=ReferenceFile,D:\extream guide\Bank_statement\Columnerfile.txt
--FILEMAP=TPDF,D:\extream guide\Bank_statement\Output1.pdf
--FILEMAP=METADATA,D:\extream guide\Bank_statement\METADATA.txt
--VARSET=Banklogo,D:\extream guide\Bank_statement\logo\Bank_logo.png
+-FILEMAP=TDriver,C:\OTPractice\Bank_statement\Driver_Input\Driver.xml
+-FILEMAP=ReferenceFile,C:\OTPractice\Driver_Input\Columnerfile.txt
+-FILEMAP=TPDF,C:\OTPractice\Bank_statement\Output1.pdf
+-FILEMAP=TMetadata,C:\OTPractice\Bank_statement\METADATA.txt
+-VARSET=Banklogo,C:\OTPractice\Bank_statement\logo\Bank_logo.png
 
 
 
